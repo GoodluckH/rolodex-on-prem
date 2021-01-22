@@ -55,9 +55,11 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#get-connection-string-from-mongodb-atlas">Get Connection String from MongoDB Atlas</a></li>
-    <li><a href="#configure-env">Configure ENV</a></li>
-    <li><a href="#run!">Run!</a></li>
+    <ul>
+      <li><a href="#get-connection-string-from-mongodb-atlas">Get Connection String from MongoDB Atlas</a></li>
+      <li><a href="#configure-env">Configure ENV</a></li>
+      <li><a href="#run!">Run!</a></li>
+    </ul>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
