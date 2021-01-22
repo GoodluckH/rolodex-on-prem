@@ -1,14 +1,4 @@
 
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
@@ -34,14 +24,14 @@
   <p align="center">
     Ditch the spreadsheet! Start managing your professional network whenever and wherever you are.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/GoodluckH/rolodex-on-prem"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://rolodex.netlify.app">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/GoodluckH/rolodex-on-prem/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/GoodluckH/rolodex-on-prem/issues">Request Feature</a>
   </p>
 </p>
 
@@ -54,6 +44,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#user-interface">User Interface</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -78,7 +69,25 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Networking is very important in one's career. Coming from a finance background, I deeply understand that Wall Street is all about whom you know. However, people are still managing their "modern" rolodex on spreadsheets with hundreds of rows of contacts, in 2021! It's even more of a hassle to access the spreadsheet to update and browse contacts. You'd have to open up your computer, going through folders after folders to locate your spreadsheet, and wait for minutes for it to load up, and to jot down something about someone whom you just grabbed coffee with. 
+
+This project aims to eliminate frictions for professional network management. It is an on-premise version because the project uses MongoDB to store contact information. For now, users need to create their own MongoDB Atlas database to store their own information.
+
+The Rolodex demo communicates with my own Atlas database (open access for all public IPs). For that reason, the demo is more like a crowd-sourced version of Rolodex. Please be civil when trying out the demo because everyone can see what's on the rolodex. 
+
+### User Interface
+
+Rolodex is a simple, one-page web app that mainly consists of three interfaces.
+
+**Loading Page**
+
+[<img src="https://i.ibb.co/2S2D5J4/ezgif-com-gif-maker.gif">](https://i.ibb.co/2S2D5J4/ezgif-com-gif-maker.gif)
+
+
+**Add Profile Page**
+[<img src="https://i.imgur.com/RgFObG3.png"  width="800" height="600">](https://i.imgur.com/RgFObG3.png)
+
+**Rolodex Page**
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
