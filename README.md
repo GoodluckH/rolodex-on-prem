@@ -145,7 +145,9 @@ You will be able to copy the connection string.
 
 
 ### Configure ENV
-Head to `./server/routes`, where you will need to paste the connection string in the `.env.example` file, where the connection string is stored as ATLAS_URI. _Note, don't include the quotation marks_.
+Head to `./server/routes`, where you will need to paste the connection string in the `.env.example` file, where the connection string is stored as ATLAS_URI. _Inside of the connection string, make sure that you have replace `<password>` with your user password. And please don't include the quotation marks that were originally in the `.env.example` file_.
+
+Rename `.env.example` to `.env`.
 
 
 ### Run!
@@ -162,7 +164,17 @@ Switch to the `client` directory, run `npm start` to run the app in your browser
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+Adding user authentification to allow each user access his or her own database is the first and the most important feature Rolodex needs. 
+
+For future features, here are some ideas:
+
+* Automatically remind user to follow with a particular contact after `t` periods of time, where `t` can be configured by the user
+* Integration with calendars to automatically import contacts
+* Search function to quickly find contacts by name, company, and keywords in the comment sessions
+* Sort function; a new column that displays "Date Added"
+
+Also see the [open issues](https://github.com/GoodluckH/rolodex-on-prem/issues) for a list of proposed features (and known issues).
+
 
 
 
