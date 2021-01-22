@@ -221,7 +221,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Xipu Li - [@twitter_handle](https://twitter.com/theXipuLi)
+Xipu Li - [@theXipuLi](https://twitter.com/theXipuLi)
 
 Project Link: [https://github.com/GoodluckH/rolodex-on-prem](https://github.com/GoodluckH/rolodex-on-prem)
 
@@ -230,9 +230,14 @@ Project Link: [https://github.com/GoodluckH/rolodex-on-prem](https://github.com/
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [Choose an open source license](https://choosealicense.com/)
+* [Material - UI](https://material-ui.com/)
+* [react-spinners](https://www.davidhu.io/react-spinners/)
+* [Screely](https://www.screely.com/)
+* [Othneil Drew](https://github.com/othneildrew)
+* [Shuming Xu](https://github.com/gundamMC)
+* [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
