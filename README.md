@@ -58,7 +58,7 @@
     <ul>
       <li><a href="#get-connection-string-from-mongodb-atlas">Get Connection String from MongoDB Atlas</a></li>
       <li><a href="#configure-env">Configure ENV</a></li>
-      <li><a href="#run!">Run!</a></li>
+      <li><a href="#run">Run!</a></li>
     </ul>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -150,8 +150,13 @@ Head to `./server/routes`, where you will need to paste the connection string in
 
 ### Run!
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Within the `server` directory, open up the terminal and type:
+```sh
+nodemon serve
+```
+This will allow you to check if the connection with MongoDB has established.
 
+Switch to the `client` directory, run `npm start` to run the app in your browser. 
 
 
 <!-- ROADMAP -->
@@ -167,9 +172,9 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3. Commit your Changes (`git commit -m 'Add some NewFeature'`)
+4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
 
 
@@ -184,9 +189,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Xipu Li - [@twitter_handle](https://twitter.com/theXipuLi)
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/GoodluckH/rolodex-on-prem](https://github.com/GoodluckH/rolodex-on-prem)
 
 
 
