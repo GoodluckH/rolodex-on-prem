@@ -26,7 +26,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/GoodluckH/rolodex-on-prem">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="/client/public/favicon.png" width="200" height="200">
   </a>
 
   <h3 align="center">Rolodex On-Prem Version</h3>
