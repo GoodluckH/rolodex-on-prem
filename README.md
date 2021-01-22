@@ -60,6 +60,11 @@
       <li><a href="#configure-env">Configure ENV</a></li>
       <li><a href="#run">Run!</a></li>
     </ul>
+    <li><a href="#deployment">Deployment</a></li>
+    <ul>
+      <li><a href="#backend">Backend</a></li>
+      <li><a href="#frontend">Frontend</a></li>
+    </ul>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -93,10 +98,6 @@ Rolodex is a simple, one-page web app that mainly consists of three interfaces.
 **Rolodex Page**
 
 [<img src="https://i.imgur.com/WoYi9Jp.png"  width="600" height="450">](https://i.imgur.com/WoYi9Jp.png)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
 
 
 ### Built With
@@ -145,20 +146,37 @@ You will be able to copy the connection string.
 
 
 ### Configure ENV
-Head to `./server/routes`, where you will need to paste the connection string in the `.env.example` file, where the connection string is stored as ATLAS_URI. _Inside of the connection string, make sure that you have replace `<password>` with your user password. And please don't include the quotation marks that were originally in the `.env.example` file_.
+Head to `./server/routes`, where you will need to paste the connection string in the `.env.example` file, where the connection string is stored as ATLAS_URI. _Inside of the connection string, make sure that you have replaced `<password>` with your user password. And please don't include quotation marks that were originally in the `.env.example` file_.
 
 Rename `.env.example` to `.env`.
 
 
 ### Run!
 
-Within the `server` directory, open up the terminal and type:
+Within the `server` directory, open up the terminal and run the following command:
 ```sh
 nodemon serve
 ```
 This will allow you to check if the connection with MongoDB has established.
 
-Switch to the `client` directory, run `npm start` to run the app in your browser. 
+Switch to the `client` directory, run `npm start` to launch the app in your browser. 
+
+
+## Deployment
+
+### Backend
+
+The backend side of the project can be deployed on AWS, Google Cloud, Heroku, etc. Before the deployment, make sure head to the `./server/routes` directory to add the following codes to the `index.js` file:
+```js
+app.get("/", (req, res) => {
+  res.send("Your message");
+});
+```
+
+Once the backend is deployed on some server, head to `./client/src/components`, in each of the component file, find `localhost` links, and replace them with the URL that your hosting service provided.
+
+### Frontend
+
 
 
 <!-- ROADMAP -->
