@@ -51,11 +51,13 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#get-connection-string-from-mongodb-atlas">Get Connection String from MongoDB Atlas</a></li>
+    <li><a href="#configure-env">Configure ENV</a></li>
+    <li><a href="#run!">Run!</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -97,9 +99,10 @@ Here's a blank template to get started:
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [React](https://reactjs.org/)
+* [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+* [Express](https://expressjs.com/en/guide/using-middleware.html)
+* [Node.js](https://nodejs.org/en/)
 
 
 
@@ -108,19 +111,12 @@ Here's a blank template to get started:
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/GoodluckH/rolodex-on-prem.git
    ```
 2. Install NPM packages
    ```sh
@@ -132,7 +128,25 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Rolodex sends and requests data from MongoDB Atlas. You will need to configure an Atlas cluster to run this project.
+
+### Get Connection String from MongoDB Atlas
+Create a [MongoDB Atlas](https://www.mongodb.com/try) account, and create a new cluster (don't forget to whitelist your IP address and to add a user). Once the cluster is configured, click 'Connect' within the sandbox to start the process of generating a [connection string](https://docs.atlas.mongodb.com/reference/faq/connection-changes#std-label-connstring-standard).
+
+[<img src="https://i.imgur.com/gCZcJVQ.png"  width="600" height="450">](https://i.imgur.com/gCZcJVQ.png)
+
+For this project, choose "Connect your application".
+
+[<img src="https://i.imgur.com/caQfUEf.png"  width="600" height="450">](https://i.imgur.com/caQfUEf.png)
+
+You will be able to copy the connection string.
+
+
+### Configure ENV
+Head to `./server/routes`, where you will need to paste the connection string in the `.env.example` file, where the connection string is stored as ATLAS_URI. _Note, don't include the quotation marks_.
+
+
+### Run!
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
