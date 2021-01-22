@@ -166,18 +166,20 @@ Switch to the `client` directory, run `npm start` to launch the app in your brow
 
 ### Backend
 
-The backend side of the project can be deployed on AWS, Google Cloud, Heroku, etc. Before the deployment, make sure head to the `./server/routes` directory to add the following codes to the `index.js` file:
+The backend side of the project can be deployed on AWS, Google Cloud, Heroku, etc. Before the deployment, make sure to head to the `./server/routes` directory to add the following codes to the `index.js` file:
 ```js
 app.get("/", (req, res) => {
   res.send("Your message");
 });
 ```
 
-Once the backend is deployed on some server, head to `./client/src/components`, in each of the component file, find `localhost` links, and replace them with the URL that your hosting service provided.
+Once the backend is deployed on some server, go to `./client/src/components`, in each of the component file, find `localhost` links, and replace them with the URL that your hosting service provided.
 
 ### Frontend
 
+It is quite simple for frontend deployment. You can use services like Netlify to quickly deploy the `client`. If you use Netlify, be sure you put `CI= npm run build` for build command. This is because Netlify will treat warning messages as errors, which will result in build failures.
 
+Alternatively, run `npm run build` to generate the `build` directory where you can manually deploy the content.
 
 <!-- ROADMAP -->
 ## Roadmap
