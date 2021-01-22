@@ -69,11 +69,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Networking is very important in one's career. Coming from a finance background, I deeply understand that Wall Street is all about whom you know. However, people are still managing their "modern" rolodex on spreadsheets with hundreds of rows of contacts, in 2021! It's even more of a hassle to access the spreadsheet to update and browse contacts. You'd have to open up your computer, going through folders after folders to locate your spreadsheet, and wait for minutes for it to load up, and to jot down something about someone whom you just grabbed coffee with. 
+Rolodex aims to eliminate frictions for professional network management. This repository serves an on-premise version since the project uses MongoDB to store contact information. For now, users need to create their own MongoDB Atlas database to store their own information.
 
-This project aims to eliminate frictions for professional network management. It is an on-premise version because the project uses MongoDB to store contact information. For now, users need to create their own MongoDB Atlas database to store their own information.
-
-The Rolodex demo communicates with my own Atlas database (open access for all public IPs). For that reason, the demo is more like a crowd-sourced version of Rolodex. Please be civil when trying out the demo because everyone can see what's on the rolodex. 
+The Rolodex demo communicates with my own Atlas database (open access for all public IPs). For that reason, the demo is more of a crowd-sourced version of Rolodex. Please be civil when trying out the demo because everyone can see what's on the rolodex. 
 
 ### User Interface
 
@@ -85,9 +83,12 @@ Rolodex is a simple, one-page web app that mainly consists of three interfaces.
 
 
 **Add Profile Page**
-[<img src="https://i.imgur.com/RgFObG3.png"  width="800" height="600">](https://i.imgur.com/RgFObG3.png)
+
+[<img src="https://i.imgur.com/RgFObG3.png"  width="600" height="450">](https://i.imgur.com/RgFObG3.png)
 
 **Rolodex Page**
+
+[<img src="https://i.imgur.com/WoYi9Jp.png"  width="600" height="450">](https://i.imgur.com/WoYi9Jp.png)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
